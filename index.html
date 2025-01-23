@@ -3,11 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mpho Shiang - Portfolio</title>
+  <title>Mpho Shiang - Premium Portfolio</title>
   <link rel="stylesheet" href="styles/main.css">
   <link rel="icon" href="images/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loader"></div>
+  </div>
+
   <header>
     <nav>
       <ul>
@@ -20,42 +26,78 @@
   </header>
 
   <main>
-    <section id="about">
-      <h1>Hello, I'm Mpho Shiang</h1>
-      <p>Aspiring Fintech Innovator | Blockchain Enthusiast | Web Developer</p>
+    <section id="about" class="fade-in">
+      <div class="center-content">
+        <h1>Welcome to My World</h1>
+        <h2>I'm <span class="highlight">Mpho Shiang</span></h2>
+        <p>Web Developer | Blockchain Enthusiast | Machine Learning Engineer</p>
+        <div class="social-links">
+          <a href="https://linkedin.com/in/mpho-shiang" target="_blank" class="btn">LinkedIn</a>
+          <a href="https://github.com/mpho-shiang" target="_blank" class="btn">GitHub</a>
+          <a href="mailto:mpho.shiang@example.com" class="btn">Email Me</a>
+        </div>
+      </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="fade-in">
       <h2>Skills</h2>
-      <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>React, Node.js</li>
-        <li>Solana Blockchain</li>
-        <li>UI/UX Design</li>
-      </ul>
+      <div class="skills-grid">
+        <div class="skills-category">
+          <h3>Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML, CSS</li>
+            <li>Solana, Rust</li>
+          </ul>
+        </div>
+        <div class="skills-category">
+          <h3>Tools</h3>
+          <ul>
+            <li>PyCharm</li>
+            <li>VSCode</li>
+            <li>Expo Go</li>
+            <li>Git, GitHub</li>
+          </ul>
+        </div>
+        <div class="skills-category">
+          <h3>Frameworks</h3>
+          <ul>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>TensorFlow</li>
+            <li>Express.js</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="fade-in">
       <h2>Projects</h2>
       <div class="project">
-        <h3>Project Title</h3>
-        <p>Description of the project...</p>
+        <h3>Blockchain-Based Financial App</h3>
+        <p>Developed a peer-to-peer lending platform using Solana and React Native. <a href="#">Learn more</a></p>
       </div>
       <div class="project">
-        <h3>Another Project</h3>
-        <p>Description...</p>
+        <h3>Sign Language Detection</h3>
+        <p>Built a machine learning model to translate sign language gestures into text using TensorFlow. <a href="#">Learn more</a></p>
+      </div>
+      <div class="project">
+        <h3>Hand-Controlled Mouse Cursor</h3>
+        <p>Designed a camera-based system to control a mouse cursor using hand gestures. <a href="#">Learn more</a></p>
       </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="fade-in">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">Your LinkedIn</a></p>
+      <p>Email: <a href="mailto:mpho.shiang@example.com">mpho.shiang@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/mpho-shiang" target="_blank">Mpho Shiang</a></p>
+      <p>GitHub: <a href="https://github.com/mpho-shiang" target="_blank">github.com/mpho-shiang</a></p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Mpho Shiang. All rights reserved.</p>
+    <p>&copy; 2025 Mpho Shiang. All rights reserved. Crafted with <span class="heart">♥</span>.</p>
   </footer>
 
   <script src="scripts/animations.js"></script>
